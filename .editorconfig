@@ -1,0 +1,18 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+[*.{hs,md,cabal,yaml,yml}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+# Turning this off in order to be able to use two spaces at the end of line to
+# add a line-break.
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
