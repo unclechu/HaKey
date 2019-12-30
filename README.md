@@ -1,6 +1,10 @@
 # HaKey
 
+![HaKey logo](artwork/logo.svg)
+
 Software-level advanced keyboard customization tool.
+
+---
 
 **WARNING!** This project is in very early development stage!
              Mostly documenting stuff…
@@ -8,8 +12,6 @@ Software-level advanced keyboard customization tool.
 **HaKey** is **Ha**skell + **Key**board.
 The round key cap on the logo is an allusion to a hockey puck,
 just because _“HaKey”_ and _“hockey”_ seem to sound similar.
-
-_P.S. The logo isn’t drawn yet (but inside my mind it is)._
 
 This program (or a set of programs) is a continuation of
 [my another project][xlib-keys-hack].
@@ -112,16 +114,29 @@ These features this tool is supposed to provide for everyone:
 
 Viacheslav Lotsmanov
 
+### Creator of the logo
+
+Viacheslav Lotsmanov
+
 ## License
 
-### [GNU AGPLv3](LICENSE)
+### License for the code
+
+[GNU AGPLv3](LICENSE)
 
 GNU Affero General Public License  
 Version 3, 19 November 2007
 
-### Why this one
+#### Why this one
 
 Using **AGPLv3** instead of just **GPLv3** because this tool may have web
 interface for configuring keyboard layout in the future.
 
+### License for the logo
+
+[CC BY-SA 4.0]
+
+Creative Commons — Attribution-ShareAlike 4.0 International
+
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [xlib-keys-hack]: https://github.com/unclechu/xlib-keys-hack
