@@ -25,6 +25,18 @@
      id="title6376">HaKey logo</title>
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1622">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1618" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1620" />
+    </linearGradient>
     <pattern
        inkscape:collect="always"
        xlink:href="#Strips1_1"
@@ -168,6 +180,26 @@
        y1="285.62289"
        x2="24.903906"
        y2="287.40881" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1622"
+       id="linearGradient1624"
+       x1="15.970316"
+       y1="49.595802"
+       x2="15.289132"
+       y2="40.807819"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.9167419,-1.8875865)" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1710">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path1712"
+         d="m 6.313191,41.00512 -0.085153,-5.959209 25.297401,0.951583 -0.302483,6.489804 c -1.103626,1.402353 -2.784244,2.121527 -4.401181,2.710579 -3.439393,1.067855 -7.115921,0.950759 -10.664739,0.594277 C 13.153655,45.427952 10.177791,44.48277 7.7294381,42.663946 7.1603457,42.208452 6.624405,41.674303 6.313191,41.00512 Z"
+         style="opacity:1;fill:#000000;fill-opacity:0.77049178;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36575874" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -176,11 +208,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-145.53256"
-     inkscape:cy="131.14502"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="29.118183"
+     inkscape:cy="246.9158"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g6380"
      showgrid="false"
      units="px"
      inkscape:window-width="1918"
@@ -258,11 +290,19 @@ https://github.com/unclechu/HaKey</dc:description>
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccccc" />
       <path
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="path2638"
+         style="opacity:0.15400002;fill:url(#pattern2642);fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36575874"
          d="m 6.313191,41.00512 -0.085153,-5.959209 25.297401,0.951583 -0.302483,6.489804 c -1.103626,1.402353 -2.784244,2.121527 -4.401181,2.710579 -3.439393,1.067855 -7.115921,0.950758 -10.664739,0.594278 C 13.153655,45.427952 10.177791,44.482771 7.7294381,42.663946 7.1603458,42.208452 6.624405,41.674303 6.313191,41.00512 Z"
-         style="opacity:0.15400002;fill:url(#pattern2642);fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36575874" />
+         id="path1698"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc" />
+      <rect
+         style="opacity:0.48;fill:url(#linearGradient1624);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.09988368;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99180328"
+         id="rect1616"
+         width="28.549746"
+         height="15.147882"
+         x="4.7391768"
+         y="33.409752"
+         clip-path="url(#clipPath1710)" />
       <path
          style="opacity:1;fill:url(#linearGradient6225);fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36575874"
          d="m 6.2177082,34.46197 c 0.273733,-2.193089 2.3177005,-3.552809 4.2807188,-4.13784 3.598177,-1.066371 7.434964,-0.943311 11.120769,-0.465655 2.970857,0.49552 6.065589,1.246771 8.458759,3.172014 1.177068,0.922318 1.844207,2.533378 1.327662,3.989212 -0.674993,2.23644 -2.990117,3.344217 -5.084195,3.895557 -3.588724,0.886313 -7.372266,0.855297 -11.000939,0.22744 -2.8332,-0.60069 -5.7997588,-1.472464 -7.9415348,-3.522589 -0.8217214,-0.818333 -1.3599668,-1.982602 -1.16124,-3.158139 z"
