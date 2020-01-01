@@ -1,6 +1,6 @@
 # HaKey
 
-![HaKey logo](artwork/logo.svg)
+![HaKey logo](artwork/logo.svg.png)
 
 Software-level advanced keyboard customization tool.
 
