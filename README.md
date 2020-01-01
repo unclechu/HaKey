@@ -33,7 +33,7 @@ The motivation is to satisfy my own needs and requirements in a customizable
 generic way so this would be useful not only for me (as [xlib-keys-hack] project
 seems to be) but for everyone else.
 
-## TODOs
+## Features
 
 These features this tool is supposed to provide for everyone:
 
@@ -68,6 +68,31 @@ These features this tool is supposed to provide for everyone:
   - [ ] [QWERTY]
   - [ ] [Dvorak]
   - [ ] [Programmer Dvorak]
+- [ ] Layer switch modes
+  - [ ] Toggle: key shared between to layers, toggle from one to another
+  - [ ] Switch: when you press a key layer switches to another layer
+  - [ ] Hold: layer is on as long as you hold a modifier key
+  - [ ] Tap toggle: you either hold a key for temporary switch or tap it to
+                    switch to that layer permanently
+  - [ ] Hold/Tap: independently configure tap and hold behavior
+  - [ ] Single: trigger a key from another layer only once after you tap a layer
+                switch key and than go back to layer you switched from
+  - [ ] First * (first toggle, first hold, first etc.):
+        It it's a first key pressed after all keys being released then it do a
+        layer switch action, if it's pressed after some other modifier being
+        held it could trigger another key (consider holding alt key first for
+        temporarily switching to alternative mode in [xlib-keys-hack] otherwise
+        it triggers regular alt key)
+- [ ] Combo/tap key mode, probably _"Layer switch modes"_ can be generalized for
+      this too, like to trigger Ctrl when you press Caps Lock with some another
+      key (when you press a key while holding Caps Lock) but when you tap Caps
+      Lock it may trigger Escape key or even original Caps Lock but until this
+      resolves to either combo or tap it triggers nothing, and when it resolves
+      to tap it immediately triggers _press_ and _release_ events sequently
+- [ ] Writing and playing macroses
+  - [ ] Play with intervals as you really typed
+  - [ ] Play with fixed interval
+  - [ ] Play without intervals (as fast as possible)
 - [ ] Store state of some modes
   - [ ] Store _Num Lock_ state
   - [ ] Store _Caps Lock_ state
@@ -95,8 +120,15 @@ These features this tool is supposed to provide for everyone:
   - [ ] Support encryption to prevent key-logger attacks
   - [ ] Warn user about unencrypted connection
   - [ ] Hot connect/reconnect interface
+  - [ ] Deliver raw [evdev] events (map on receiver side)
+  - [ ] Deliver premapped keys (map on sender side)
 - [ ] Safe hot plug/unplug of devices
 - [ ] Automatically (re)connect to just plugged in device
+- [ ] Web-interface for configuring layouts and other parameters
+  - [ ] Optional export of your **HaKey** config as a [QMK] firmware setup
+        (to apply that config on hardware/firmware level, at least what's
+        possible, like layout with layers and modifiers/togglers)
+    - [ ] Test on ErgoDox EZ
 
 **WARNING!** This list is incomplete yet,
              there will be more features described here!
@@ -109,6 +141,7 @@ These features this tool is supposed to provide for everyone:
 [QWERTY]: https://en.wikipedia.org/wiki/QWERTY
 [Dvorak]: https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
 [Programmer Dvorak]: https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Programmer_Dvorak
+[QMK]: https://github.com/qmk/qmk_firmware
 
 ## Author
 
